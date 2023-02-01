@@ -1,1 +1,1 @@
-# AI-Image-Processor
+# My Image Processing App
