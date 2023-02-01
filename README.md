@@ -1,1 +1,1 @@
-# My Image Processing App
+# AI Processing App
