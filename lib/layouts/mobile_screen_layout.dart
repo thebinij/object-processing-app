@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:my_app/screens/pdf_compresser.dart';
 import '../screens/image_processer.dart';
-import '../screens/smart_bot.dart';
 import '../utils/colors.dart';
 
 List<Widget> homeScreenItems = [
   const ImageProcesser(
-    title: 'AI IMAGE APP',
+    title: 'Object Processing App',
   ),
-  const SmartBot()
+  const PDFcompressor()
 ];
 
 class MobileScreenLayout extends StatefulWidget {
@@ -65,10 +65,10 @@ class _MobileScreenLayoutState extends State<MobileScreenLayout> {
           ),
           BottomNavigationBarItem(
               icon: Icon(
-                Icons.chat_sharp,
+                Icons.compress_outlined,
                 color: (_page == 1) ? primaryColor : secondaryColor,
               ),
-              label: 'Chat',
+              label: 'PDF Compressor',
               backgroundColor: primaryColor),
         ],
         onTap: navigationTapped,
